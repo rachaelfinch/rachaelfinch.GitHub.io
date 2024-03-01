@@ -2,7 +2,7 @@ title: Rachael Finch # your name (or website title) here
 logo: "/images/gitpic.jpg?raw=true" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
   Welcome to My World of Data. 
-  <br>
+  <br><br>
   <a href="https://www.linkedin.com/in/rachael-m-finch/">View My LinkedIn Profile</a> 
   
 theme: jekyll-theme-minimal
