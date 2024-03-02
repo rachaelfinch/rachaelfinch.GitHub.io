@@ -21,11 +21,13 @@ My final write up for Avery Smith's 21 Days To Data project covering New York Ci
 
 ---
 #### [Education Project](https://www.linkedin.com/pulse/using-tableau-analyze-educational-data-rachael-finch-1dxke/)
-[<img src="images/21 Days To Data Challenge What I've Learned Cover.png?raw=true"/>](https://www.linkedin.com/pulse/what-i-learned-21-days-data-avery-smith)
-In this case study from Data Analytics Accelerator, I was prompted to analyze the State of Massachusetts education data. The main focuses were:
-What schools are struggling the most?
-How does class size affect college admission?
-What are the top math schools in the state? 
+https://www.linkedin.com/pulse/using-tableau-analyze-educational-data-rachael-finch-1dxke/
+[<img src="Tab CF Ed.jpg?raw=true"/>]()
+In this case study from Data Analytics Accelerator, I was prompted to analyze education data from the state of Massachusetts. The main focuses were:
+Determine the schools that have the lowest rates of graduation and those that are excelling.
+Demonstrate how the makeup of a school's population may affect graduation rates.
+Establish if class size impacts the likelihood students will go on to pursue a college degree.
+Address fourth-grade Math proficiency levels and determine which districts lead the state in scores. 
 
 ---
 
