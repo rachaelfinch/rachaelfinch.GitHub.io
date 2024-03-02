@@ -21,8 +21,7 @@ My final write up for Avery Smith's 21 Days To Data project covering New York Ci
 
 ---
 #### [Education Project](https://www.linkedin.com/pulse/using-tableau-analyze-educational-data-rachael-finch-1dxke/)
-https://www.linkedin.com/pulse/using-tableau-analyze-educational-data-rachael-finch-1dxke/
-[<img src="Tab CF Ed.jpg?raw=true"/>]()
+[<img src="Tab CF Ed.jpg?raw=true"/>]
 In this case study from Data Analytics Accelerator, I was prompted to analyze education data from the state of Massachusetts. The main focuses were:
 Determine the schools that have the lowest rates of graduation and those that are excelling.
 Demonstrate how the makeup of a school's population may affect graduation rates.
