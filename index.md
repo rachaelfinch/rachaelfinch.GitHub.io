@@ -15,7 +15,7 @@ For this project, I explored what a good analytics PowerPoint presentation shoul
 
 ---
 #### [Marketing Project](https://www.linkedin.com/pulse/analyzing-ifood-sales-excel-rachael-finch-lcioe/?trackingId=msuWMUpeTXGAJeUSjRKD9w%3D%3D)
-[<img src="images/21 Days To Data Challenge What I've Learned Cover.png?raw=true"/>](https://www.linkedin.com/pulse/analyzing-ifood-sales-excel-rachael-finch-lcioe/?trackingId=msuWMUpeTXGAJeUSjRKD9w%3D%3D)
+[<img src="images/Viz iFood Data.png?raw=true"/>](https://www.linkedin.com/pulse/analyzing-ifood-sales-excel-rachael-finch-lcioe/?trackingId=msuWMUpeTXGAJeUSjRKD9w%3D%3D)
 A deep dive into marketing behavioral data from iFood utilizing Excel. 
 
 
