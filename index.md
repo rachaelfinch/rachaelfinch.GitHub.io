@@ -22,9 +22,8 @@ A deep dive into marketing behavioral data from iFood utilizing Excel.
 ---
 #### [Education Project](https://www.linkedin.com/pulse/using-tableau-analyze-educational-data-rachael-finch-1dxke/)
 [<img src="images/Tab CF Ed.jpg?raw=true"/>](https://www.linkedin.com/pulse/using-tableau-analyze-educational-data-rachael-finch-1dxke/?trackingId=uAeyuBenQu%2BSZ7Jrvu0cug%3D%3D)
-In this case study from Data Analytics Accelerator, I was prompted to analyze education data from the state of Massachusetts. The main focuses were:
-Determine the schools that have the lowest rates of graduation and those that are excelling.
-Demonstrate how the makeup of a school's population may affect graduation rates.
+In this case study, I was prompted to analyze education data from the state of Massachusetts. The main focuses were:
+Determine the schools that have the lowest rates of graduation and those that are excelling and the differences in the schools.
 Establish if class size impacts the likelihood students will go on to pursue a college degree.
 Address fourth-grade Math proficiency levels and determine which districts lead the state in scores. 
 
