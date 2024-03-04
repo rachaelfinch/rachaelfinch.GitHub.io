@@ -75,7 +75,7 @@ SELECT AVG("Service Charge Rate") FROM "Banking_Data_Feb15";
 ### Taking SQL Further Down the Road...
 Here I began to write SQL queries specific to transportation projects. There were many options including railroads and urban transport, but for simplicity, I stuck to roads and highways.
 
-6. 
+6. I ran the following query to get the total number of loans/grants for projects listed as a phrase with Road Construction, Road, or Highway. 
 ```sql
 SELECT COUNT(*) FROM Banking_Data_Feb15
 WHERE "Project Name" LIKE '%ROAD CONSTRUCTION%' 
@@ -83,8 +83,9 @@ OR "Project Name" LIKE '%ROAD%'
 OR "Project Name" LIKE '%HIGHWAY%';
 ```
 ![Question 6](/images/M4_Q6.jpg)
+The wildcard symbol "%", was helpful to find other projects that would be listed as, "ROADWAYS or HIGHWAY MAINT".
 
-7. 
+7. I was interested in how much money has been used for roadway transportation projects, not just what is still owed to the IDA. For this reason, I wrote a query to calculate the sum of the original principal amount 
 ```sql
 SELECT SUM("Original Principal Amount (US$)") FROM "Banking_Data_Feb15"
 WHERE "Project Name" LIKE '%ROAD CONSTRUCTION%' 
