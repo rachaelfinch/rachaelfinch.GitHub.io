@@ -1,9 +1,9 @@
-## Exploring Expansion of Transportation Through the Eyes of The World Bank
+## Exploring the Expansion of Roads Through the Eyes of The World Bank
 
 ### Project Description
 The International Development Association (IDA) section of The World Bank provides its recipient member countries with development credits and grants. The goal of the IDA is to help the world's poorest countries by providing credits (zero to low-interest loans) to reduce poverty. Grants are used to help countries create programs to meet their development needs, improve quality of life, and give the economy a boost. 
 
-Throughout history, roads have been an innovative way to connect people. Before roads, think of the mode of transportation used. Typically, it was horse or by foot. The wheel was invented prior to paved roads, but it wasn’t the most effective mode of transportation when there was heavy rain. With the introduction of paved or stone roads opened the door for the automotive industry to thrive as well as new technologies such as google maps and waze. Many underdeveloped countries today still do not have paved roads and thus, limited transportation. The IDA provides these countries with loans and grants to help fund projects like these, which is exaclty what we are going to explore!
+Throughout history, roads have been an innovative way to connect people. Before roads, think of the modes of transportation used. Typically, people would have traveled by horse or by foot. The wheel was invented prior to paved roads, but it wasn’t the most effective mode of transportation when there was heavy rain. The introduction of paved opened the door for the automotive industry to thrive as well as new technologies such as google maps and waze. Many underdeveloped countries today still do not have paved roads and thus, limited transportation. The IDA provides these countries with loans and grants to help fund projects like these, which is exaclty what we are going to explore!
 
 ### The Data
 For this project, I downloaded the most updated IDA Statement of Credits and Grants available. This dataset was updated on February 15, 2024. It contains ~10.4k rows and 30 columns. Each row represernts a credit or a Grant. The columns represent different data elements such as: Credit Number, Country, Borrower, Credit Status, Service Charge Rate, Project Name, Original Principal Amount (US$), Due to IDA (US$), etc. The Data Dictionary for this data set can be shown in [**Data Dictionary for IBRD Statement of Loans and IDA Statement of Credits and Grants**](https://finances.worldbank.org/api/assets/FF2A5DB3-BBD2-444D-ADA8-90DF4A166980?download=true)
@@ -72,7 +72,8 @@ SELECT AVG("Service Charge Rate") FROM "Banking_Data_Feb15";
 ```
 ![Question 5](/images/M4_Q5.jpg)
 
-### 
+### Taking SQL Further Down the Road...
+Here I began to write SQL queries specific to transportation projects. There were many options including railroads and urban transport, but for simplicity, I stuck to roads and highways.
 
 6. 
 ```sql
@@ -110,7 +111,7 @@ OR "Project Name" LIKE '%HIGHWAY%';
 ```
 ![Question 9](/images/M4_Q9.jpg)
 
-10. b
+10. 
 ```sql
 SELECT MAX("Due to IDA (US$)"), "Country" FROM "Banking_Data_Feb15"
 WHERE "Project Name" LIKE '%ROAD CONSTRUCTION%' 
