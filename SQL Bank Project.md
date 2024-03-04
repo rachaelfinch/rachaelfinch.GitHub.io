@@ -34,7 +34,9 @@ SELECT COUNT(*) FROM "Banking_Data_Feb15";
 
 Here we see the count = 10,401 rows. This is including the first row of column headers.
 
-1. ```sql
+1.
+
+```sql
 SELECT COUNT(*) FROM "Banking_Data_Feb15";
 ```
 <img src="images/M4 Q1?raw=true"/>
