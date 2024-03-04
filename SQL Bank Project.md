@@ -30,7 +30,16 @@ We know that there are a total of 10,400 transations in this dataset as it is pr
 ```sql
 SELECT COUNT(*) FROM "Banking_Data_Feb15";
 ```
+<img src="images/M4 trans?raw=true"/>
 
+Here we see the count = 10,401 rows. This is including the first row of column headers.
+
+1. ```sql
+SELECT COUNT(*) FROM "Banking_Data_Feb15";
+```
+<img src="images/M4 Q1?raw=true"/>
+
+2. 
 
 ### 2. You can add any images you'd like. 
 
