@@ -4,7 +4,7 @@
 
 ### Have You Ever Wondered How A Country Pays to Build Roads?
  
- ![Road and Mountains](/images/SQL_Bank1.png)
+ ![Road and Mountains](/images/SQL_Bank1.png) 
 
  
 ### Project Description
@@ -144,3 +144,9 @@ Here we are, with Viet Nam coming in 1st place for owing the most amount of mone
 5. The total amount originally approved to loan out for these specific projects was over $6 billon, while there is only $1.24 billion left to pay back.
 6. The average service charge rate for all the loans and grants is 0.8143.
 7. The top 5 countries that owe the IDA the most are: Viet Nam, Pakistan, Ethiopia, Bangladesh, and India. 
+
+### Thank You!
+
+I really enjoyed exploring this financial data using SQL. I hope to utilize SQL more down the road ;) 
+
+Feel free to connect with me on LinkedIn or check my portfolio for new data projects!
