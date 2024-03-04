@@ -83,9 +83,10 @@ OR "Project Name" LIKE '%ROAD%'
 OR "Project Name" LIKE '%HIGHWAY%';
 ```
 ![Question 6](/images/M4_Q6.jpg)
+
 The wildcard symbol "%", was helpful to find other projects that would be listed as, "ROADWAYS or HIGHWAY MAINT".
 
-7. I was interested in how much money has been used for roadway transportation projects, not just what is still owed to the IDA. For this reason, I wrote a query to calculate the sum of the original principal amount 
+7. I was interested in how much money has been used for roadway transportation projects, not just what is still owed to the IDA. For this reason, I wrote a query to calculate the sum of the original principal amount which is the original amount of that loan that is committed and approved. 
 ```sql
 SELECT SUM("Original Principal Amount (US$)") FROM "Banking_Data_Feb15"
 WHERE "Project Name" LIKE '%ROAD CONSTRUCTION%' 
@@ -94,7 +95,7 @@ OR "Project Name" LIKE '%HIGHWAY%';
 ```
 ![Question 7](/images/M4_Q7.jpg)
 
-8. 
+8. Now I ran a query to see how much money is still owed to the IDA for these projects. 
 ```sql
 SELECT SUM("Due to IDA (US$)") FROM "Banking_Data_Feb15"
 WHERE "Project Name" LIKE '%ROAD CONSTRUCTION%' 
