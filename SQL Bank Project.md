@@ -132,6 +132,8 @@ Here we are, with Viet Nam coming in 1st place for owing the most amount of mone
 
 1. The total due to the IDA in this current snapshot for loans is grants is over $197 billion.
 2. Ukraine owes the most to the IDA for their PEACE in Ukraine Project, $1,024,995,109.66.
-3. The average service charge rate for all the loans and grants is 0.9298
+3. The average service charge rate for all the loans and grants is 0.9298.
 4. There are 289 projects for road construction, roadways, and highways. *Wildcard used to find any word combinations using road and highway.
-5. The total amount originally approved to loan out for these specific projects was over $6 billon. 
+5. The total amount originally approved to loan out for these specific projects was over $6 billon, while there is only $1.24 billion left to pay back.
+6. The average service charge rate for all the loans and grants is 0.8143.
+7. The top 5 countries that owe the IDA the most are: Viet Nam, Pakistan, Ethiopia, Bangladesh, and India. 
