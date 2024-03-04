@@ -35,7 +35,6 @@ SELECT COUNT(*) FROM "Banking_Data_Feb15";
 Here we see the count = 10,401 rows. This is including the first row of column headers.
 
 1.
-
 ```sql
 SELECT SUM("Due to IDA (US$)") FROM "Banking_Data_Feb15";
 ```
@@ -52,8 +51,5 @@ The country of Ukraine owes the IDA $1,024,995,109.66. Shocked by this amount of
 
 3. f
 
-### 2. You can add any images you'd like. 
-
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 
