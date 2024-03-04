@@ -121,8 +121,9 @@ OR "Project Name" LIKE '%HIGHWAY%';
 ![Question 9](/images/M4_Q9.jpg)
 
 0.9298 vs 0.8143 may not seem like a lot, but when you owe millions to billions of dollars, that service charge rate is no joke!
-10. Finally, I was interested in which country owed the most amount of money to the IDA for the roadway projects. 
-```sqlU
+
+10. Finally, I was interested in which country owed the most amount of money to the IDA for the roadway projects.    
+```sql
 SELECT MAX("Due to IDA (US$)"), "Country" FROM "Banking_Data_Feb15"
 WHERE "Project Name" LIKE '%ROAD CONSTRUCTION%' 
 OR "Project Name" LIKE '%ROAD%'
