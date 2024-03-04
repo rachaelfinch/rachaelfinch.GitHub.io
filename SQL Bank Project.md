@@ -31,6 +31,7 @@ We know that there are a total of 10,400 transations in this dataset as it is pr
 SELECT COUNT(*) FROM "Banking_Data_Feb15";
 ```
 
+
 ### 2. You can add any images you'd like. 
 
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
