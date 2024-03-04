@@ -112,4 +112,14 @@ WHERE "Project Name" LIKE '%ROAD CONSTRUCTION%'
 OR "Project Name" LIKE '%ROAD%'
 OR "Project Name" LIKE '%HIGHWAY%';
 ```
+![Question 9b](/images/M4_Q9b.jpg)
 
+10. b
+```sql
+SELECT MAX("Due to IDA (US$)"), "Country" FROM "Banking_Data_Feb15"
+WHERE "Project Name" LIKE '%ROAD CONSTRUCTION%' 
+OR "Project Name" LIKE '%ROAD%'
+OR "Project Name" LIKE '%HIGHWAY%'
+GROUP BY "Country" ORDER BY MAX("Due to IDA (US$)") DESC;
+```
+![Question 10](/images/M4_Q10.jpg)
