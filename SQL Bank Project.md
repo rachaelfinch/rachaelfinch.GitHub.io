@@ -19,10 +19,10 @@ I began my analysis with these questions in mind:
 3.	How many total transactions does this country have?
 4.	How many loans/grants does each country have?
 5.	What is the average service charge rate for the given loans?
-6.	How many projects are there in this dataset?
-7.	How many loans/grants have a project name of 'Roads' or the name of 'Highway’?
-8.	What is the Sum of the Original Principal Amount (US$) of the loans/grants?
-9.	How much is owed to the IDA for these projects and what is the average service charge rate?
+6.	How many loans/grants have a project name of 'Roads' or the name of 'Highway’?
+7.	What is the Sum of the Original Principal Amount (US$) of the loans/grants?
+8.	How much is owed to the IDA for these projects?
+9.	What is the average service charge rate for these projects?
 10.	Which country still owes the most for this specific project?
 
 We know that there are a total of 10,400 transations in this dataset as it is provided by The World Bank website. However, if we didn't know, we could use a simple query to find out.
