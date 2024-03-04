@@ -39,9 +39,18 @@ Here we see the count = 10,401 rows. This is including the first row of column h
 ```sql
 SELECT SUM("Due to IDA (US$)") FROM "Banking_Data_Feb15";
 ```
-<img src="images/M4 Q1?raw=true"/>
+![Question 1](/images/M4_1.jpg)
 
 2. 
+```sql
+SELECT Max("Due to IDA (US$)"), Country FROM "Banking_Data_Feb15"
+GROUP BY Country ORDER BY MAX("Due to IDA (US$)") DESC;
+```
+![Question 2](/images/M4_2.jpg)
+
+The country of Ukraine owes the IDA $1,024,995,109.66. Shocked by this amount of money, I looked further into this project. The service charge rate is 0. Using the [Data Dictionary](https://finances.worldbank.org/api/assets/FF2A5DB3-BBD2-444D-ADA8-90DF4A166980?download=true) for IDA Statement of Credits and Grants for reference, I learned that for loans that could have more than one interest rate, the interest rate is listed as “0”. The Project is the [PEACE in Ukraine Project](https://www.worldbank.org/en/news/feature/2023/07/10/the-world-banks-peace-project-supports-the-government-key-programs-in-ukraine), which began to provide financial support to the Ukraine Government and citizens after the Russian Invasion. The money is distributed as following, “Beneficiaries of the PEACE project include 10 million pensioners, 500,000 education employees, 145,000 government employees, 56,000 first responders, and more than 3 million recipients of social assistance and IDPs.”
+
+3. f
 
 ### 2. You can add any images you'd like. 
 
