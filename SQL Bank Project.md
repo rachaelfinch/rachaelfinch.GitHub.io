@@ -1,6 +1,6 @@
 ## Exploring Expansion of Transportation Through the Eyes of The World Bank
 
-### Project description
+### Project Description
 The International Development Association (IDA) section of The World Bank provides its recipient member countries with development credits and grants. The goal of the IDA is to help the world's poorest countries by providing credits (zero to low-interest loans) to reduce poverty. Grants are used to help countries create programs to meet their development needs, improve quality of life, and give the economy a boost. 
 
 Throughout history, roads have been an innovative way to connect people. Before roads, think of the mode of transportation used. Typically, it was horse or by foot. The wheel was invented prior to paved roads, but it wasn’t the most effective mode of transportation when there was heavy rain. With the introduction of paved or stone roads opened the door for the automotive industry to thrive as well as new technologies such as google maps and waze. Many underdeveloped countries today still do not have paved roads and thus, limited transportation. The IDA provides these countries with loans and grants to help fund projects like these, which is exaclty what we are going to explore!
@@ -13,7 +13,6 @@ The data can be found following [**This Link**](https://finances.worldbank.org/L
 I began exploring this dataset with SQL (Standard Query Language) queries using csvfiddle.io. After learning what type of information I was working with, I decided to focus on a specific type of Project that these countries need loans for. There were options related to agriculture, education, water, and power. However, I decided to choose transportation routes such as roadways and highways as my project of choice. 
 
 ### Analysis
-
 Just like this. And you can even add internal coding blocks
 
 ```sql
