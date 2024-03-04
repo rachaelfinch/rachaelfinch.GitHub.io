@@ -28,7 +28,7 @@ I began my analysis with these questions in mind:
 We know that there are a total of 10,400 transations in this dataset as it is provided by The World Bank website. However, if we didn't know, we could use a simple query to find out.
 
 ```sql
-`SELECT COUNT(*) FROM "Banking_Data_Feb15";`
+SELECT COUNT(*) FROM "Banking_Data_Feb15";
 ```
 
 ### 2. You can add any images you'd like. 
