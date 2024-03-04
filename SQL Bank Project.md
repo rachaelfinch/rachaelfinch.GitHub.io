@@ -1,5 +1,7 @@
 ## Exploring the Expansion of Roads Through the Eyes of The World Bank
 
+![Title Picture](/images/SQL_Bank2.png)
+
 ### Have You Ever Wondered How A Country Pays to Build Roads?
  
  ![Road and Mountains](/images/SQL_Bank1.png)
