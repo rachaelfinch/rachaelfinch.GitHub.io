@@ -13,10 +13,22 @@ The data can be found following [**This Link**](https://finances.worldbank.org/L
 I began exploring this dataset with SQL (Standard Query Language) queries using csvfiddle.io. After learning what type of information I was working with, I decided to focus on a specific type of Project that these countries need loans for. There were options related to agriculture, education, water, and power. However, I decided to choose transportation routes such as roadways and highways as my project of choice. 
 
 ### Analysis
-Just like this. And you can even add internal coding blocks
+I began my analysis with these questions in mind:
+1.	How much is owed to the IDA?
+2.	What country owes the IDA the most and what is their loan total?
+3.	How many total transactions does this country have?
+4.	How many loans/grants does each country have?
+5.	What is the average service charge rate for the given loans?
+6.	How many projects are there in this dataset?
+7.	How many loans/grants have a project name of 'Roads' or the name of 'Highway’?
+8.	What is the Sum of the Original Principal Amount (US$) of the loans/grants?
+9.	How much is owed to the IDA for these projects and what is the average service charge rate?
+10.	Which country still owes the most for this specific project?
+
+We know that there are a total of 10,400 transations in this dataset as it is provided by The World Bank website. However, if we didn't know, we could use a simple query to find out.
 
 ```sql
-(' ')
+('SELECT COUNT(*) FROM "Banking_Data_Feb15";')
 ```
 
 ### 2. You can add any images you'd like. 
