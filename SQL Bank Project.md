@@ -2,7 +2,7 @@
 
 ### Have You Ever Wondered How A Country Pays to Build Roads?
  
- ![Road and Mountains](/images/SQL_Bank2.png)
+ ![Road and Mountains](/images/SQL_Bank1.png)
 
  
 ### Project Description
