@@ -74,9 +74,18 @@ SELECT AVG("Service Charge Rate") FROM "Banking_Data_Feb15";
 
 ### 
 
-7. 
+6. 
 ```sql
 SELECT COUNT(*) FROM Banking_Data_Feb15
+WHERE "Project Name" LIKE '%ROAD CONSTRUCTION%' 
+OR "Project Name" LIKE '%ROAD%'
+OR "Project Name" LIKE '%HIGHWAY%';
+```
+![Question 6](/images/M4_Q6.jpg)
+
+7. 
+```sql
+SELECT SUM("Original Principal Amount (US$)") FROM "Banking_Data_Feb15"
 WHERE "Project Name" LIKE '%ROAD CONSTRUCTION%' 
 OR "Project Name" LIKE '%ROAD%'
 OR "Project Name" LIKE '%HIGHWAY%';
@@ -85,29 +94,21 @@ OR "Project Name" LIKE '%HIGHWAY%';
 
 8. 
 ```sql
-SELECT SUM("Original Principal Amount (US$)") FROM "Banking_Data_Feb15"
+SELECT SUM("Due to IDA (US$)") FROM "Banking_Data_Feb15"
 WHERE "Project Name" LIKE '%ROAD CONSTRUCTION%' 
 OR "Project Name" LIKE '%ROAD%'
 OR "Project Name" LIKE '%HIGHWAY%';
 ```
 ![Question 8](/images/M4_Q8.jpg)
 
-9. 
-```sql
-SELECT SUM("Due to IDA (US$)") FROM "Banking_Data_Feb15"
-WHERE "Project Name" LIKE '%ROAD CONSTRUCTION%' 
-OR "Project Name" LIKE '%ROAD%'
-OR "Project Name" LIKE '%HIGHWAY%';
-```
-![Question 9](/images/M4_Q9.jpg)
-
+9.
 ```sql
 SELECT AVG("Service Charge Rate") FROM "Banking_Data_Feb15"
 WHERE "Project Name" LIKE '%ROAD CONSTRUCTION%' 
 OR "Project Name" LIKE '%ROAD%'
 OR "Project Name" LIKE '%HIGHWAY%';
 ```
-![Question 9b](/images/M4_Q9b.jpg)
+![Question 9](/images/M4_Q9.jpg)
 
 10. b
 ```sql
