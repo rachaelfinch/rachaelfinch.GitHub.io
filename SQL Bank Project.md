@@ -30,7 +30,7 @@ We know that there are a total of 10,400 transations in this dataset as it is pr
 ```sql
 SELECT COUNT(*) FROM "Banking_Data_Feb15";
 ```
-![Count Transactions](/images/M4 trans.jpg)
+![Count Transactions](/images/M4_trans.jpg)
 
 Here we see the count = 10,401 rows. This is including the first row of column headers.
 
