@@ -1,4 +1,4 @@
-## Exploring Expansion of Transportation Through the Eyes of The World BanK
+## Exploring Expansion of Transportation Through the Eyes of The World Bank
 
 **Project description:** 
 The International Development Association (IDA) section of The World Bank provides its recipient member countries with development credits and grants. The goal of the IDA is to help the world's poorest countries by providing credits (zero to low-interest loans) to reduce poverty. Grants are used to help countries create programs to meet their development needs, improve quality of life, and give the economy a boost. 
