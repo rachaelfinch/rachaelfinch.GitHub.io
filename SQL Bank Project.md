@@ -104,7 +104,9 @@ OR "Project Name" LIKE '%HIGHWAY%';
 ```
 ![Question 8](/images/M4_Q8.jpg)
 
-9.
+This is still an insane amount of money, but definitely smaller than the sum of the original amount approved. 
+
+9. I wanted to compare the Service Charge Rate for these projects compared to the total average of the dataset. 
 ```sql
 SELECT AVG("Service Charge Rate") FROM "Banking_Data_Feb15"
 WHERE "Project Name" LIKE '%ROAD CONSTRUCTION%' 
