@@ -77,9 +77,9 @@ Here we see the count = 10,401 rows. This is including the first row of column h
     ```
     ![Question 5](/images/M4_Q5.jpg)
 
-### Taking SQL Further Down the Road...
+    **Taking SQL Further Down the Road...**
 
-Here I began to write SQL queries specific to transportation projects. There were many     options including railroads and urban transport, but for simplicity, I stuck to roads and     highways.
+    Here I began to write SQL queries specific to transportation projects. There were many options including railroads and urban transport, but for simplicity, I stuck to roads and highways.
 
 6. I ran the following query to get the total number of loans/grants for projects listed as a phrase with Road Construction, Road, or Highway. 
     ```sql
