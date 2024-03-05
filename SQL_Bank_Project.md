@@ -40,99 +40,99 @@ SELECT COUNT(*) FROM "Banking_Data_Feb15";
 Here we see the count = 10,401 rows. This is including the first row of column headers.
 
 1. Total owed to the IDA
-```sql
-SELECT SUM("Due to IDA (US$)") FROM "Banking_Data_Feb15";
-```
-![Question 1](/images/M4_Q1.jpg)
+    ```sql
+    SELECT SUM("Due to IDA (US$)") FROM "Banking_Data_Feb15";
+    ```
+    ![Question 1](/images/M4_Q1.jpg)
 
 2. Countries that owe the most to the IDA in descending order.
-```sql
-SELECT Max("Due to IDA (US$)"), Country FROM "Banking_Data_Feb15"
-GROUP BY Country ORDER BY MAX("Due to IDA (US$)") DESC;
-```
-![Question 2](/images/M4_Q2.jpg)
+    ```sql
+    SELECT Max("Due to IDA (US$)"), Country FROM "Banking_Data_Feb15"
+    GROUP BY Country ORDER BY MAX("Due to IDA (US$)") DESC;
+    ```
+    ![Question 2](/images/M4_Q2.jpg)
 
-The country of Ukraine owes the IDA $1,024,995,109.66. Shocked by this amount of money, I looked further into this project. The service charge rate is 0. Using the [Data Dictionary](https://finances.worldbank.org/api/assets/FF2A5DB3-BBD2-444D-ADA8-90DF4A166980?download=true) for IDA Statement of Credits and Grants for reference, I learned that for loans that could have more than one interest rate, the interest rate is listed as “0”. The Project is the [PEACE in Ukraine Project](https://www.worldbank.org/en/news/feature/2023/07/10/the-world-banks-peace-project-supports-the-government-key-programs-in-ukraine), which began to provide financial support to the Ukraine Government and citizens after the Russian Invasion. The money is distributed as following, “Beneficiaries of the PEACE project include 10 million pensioners, 500,000 education employees, 145,000 government employees, 56,000 first responders, and more than 3 million recipients of social assistance and IDPs.”
+    The country of Ukraine owes the IDA $1,024,995,109.66. Shocked by this amount of money, I looked further into this project. The service charge rate is 0. Using the [Data Dictionary](https://finances.worldbank.org/api/assets/FF2A5DB3-BBD2-444D-ADA8-90DF4A166980?download=true) for IDA Statement of Credits and Grants for reference, I learned that for loans that could have more than one interest rate, the interest rate is listed as “0”. The Project is the [PEACE in Ukraine Project](https://www.worldbank.org/en/news/feature/2023/07/10/the-world-banks-peace-project-supports-the-government-key-programs-in-ukraine), which began to provide financial support to the Ukraine Government and citizens after the Russian Invasion. The money is distributed as following, “Beneficiaries of the PEACE project include 10 million pensioners, 500,000 education employees, 145,000 government employees, 56,000 first responders, and more than 3 million recipients of social assistance and IDPs.”
 
 3. How many projects Ukraine has.
-```sql
-SELECT COUNT(*) FROM "Banking_Data_Feb15"
-WHERE "Country" = 'Ukraine';
-```
-![Question 3](/images/M4_Q3.jpg)
+    ```sql
+    SELECT COUNT(*) FROM "Banking_Data_Feb15"
+    WHERE "Country" = 'Ukraine';
+    ```
+    ![Question 3](/images/M4_Q3.jpg)
 
 The only loan Ukraine has is for the PEACE project. 
 
 4. Sort the number of projects for each country in ascending order. 
-```sql
-SELECT "Country", COUNT(*) FROM "Banking_Data_Feb15"
-GROUP BY "Country"
-ORDER BY "Country" ASC;
-```
-![Question 4](/images/M4_Q4.jpg)
+    ```sql
+    SELECT "Country", COUNT(*) FROM "Banking_Data_Feb15"
+    GROUP BY "Country"
+    ORDER BY "Country" ASC;
+    ```
+    ![Question 4](/images/M4_Q4.jpg)
 
 5. Average service charge rate for all the loans/grants.
-```sql
-SELECT AVG("Service Charge Rate") FROM "Banking_Data_Feb15";
-```
-![Question 5](/images/M4_Q5.jpg)
+    ```sql
+    SELECT AVG("Service Charge Rate") FROM "Banking_Data_Feb15";
+    ```
+    ![Question 5](/images/M4_Q5.jpg)
 
 ### Taking SQL Further Down the Road...
 Here I began to write SQL queries specific to transportation projects. There were many options including railroads and urban transport, but for simplicity, I stuck to roads and highways.
 
 6. I ran the following query to get the total number of loans/grants for projects listed as a phrase with Road Construction, Road, or Highway. 
-```sql
-SELECT COUNT(*) FROM Banking_Data_Feb15
-WHERE "Project Name" LIKE '%ROAD CONSTRUCTION%' 
-OR "Project Name" LIKE '%ROAD%'
-OR "Project Name" LIKE '%HIGHWAY%';
-```
-![Question 6](/images/M4_Q6.jpg)
+    ```sql
+    SELECT COUNT(*) FROM Banking_Data_Feb15
+    WHERE "Project Name" LIKE '%ROAD CONSTRUCTION%' 
+    OR "Project Name" LIKE '%ROAD%'
+    OR "Project Name" LIKE '%HIGHWAY%';
+    ```
+    ![Question 6](/images/M4_Q6.jpg)
 
-The wildcard symbol "%", was helpful to find other projects that would be listed as, "ROADWAYS or HIGHWAY MAINT".
+    The wildcard symbol "%", was helpful to find other projects that would be listed as, "ROADWAYS or HIGHWAY MAINT".
 
 7. I was interested in how much money has been used for roadway transportation projects, not just what is still owed to the IDA. For this reason, I wrote a query to calculate the sum of the original principal amount which is the original amount of that loan that is committed and approved. 
-```sql
-SELECT SUM("Original Principal Amount (US$)") FROM "Banking_Data_Feb15"
-WHERE "Project Name" LIKE '%ROAD CONSTRUCTION%' 
-OR "Project Name" LIKE '%ROAD%'
-OR "Project Name" LIKE '%HIGHWAY%';
-```
-![Question 7](/images/M4_Q7.jpg)
+    ```sql
+    SELECT SUM("Original Principal Amount (US$)") FROM "Banking_Data_Feb15"
+    WHERE "Project Name" LIKE '%ROAD CONSTRUCTION%' 
+    OR "Project Name" LIKE '%ROAD%'
+    OR "Project Name" LIKE '%HIGHWAY%';
+    ```
+    ![Question 7](/images/M4_Q7.jpg)
 
 8. Now, I ran a query to see how much money is still owed to the IDA for these projects. 
-```sql
-SELECT SUM("Due to IDA (US$)") FROM "Banking_Data_Feb15"
-WHERE "Project Name" LIKE '%ROAD CONSTRUCTION%' 
-OR "Project Name" LIKE '%ROAD%'
-OR "Project Name" LIKE '%HIGHWAY%';
-```
-![Question 8](/images/M4_Q8.jpg)
+    ```sql
+    SELECT SUM("Due to IDA (US$)") FROM "Banking_Data_Feb15"
+    WHERE "Project Name" LIKE '%ROAD CONSTRUCTION%' 
+    OR "Project Name" LIKE '%ROAD%'
+    OR "Project Name" LIKE '%HIGHWAY%';
+    ```
+    ![Question 8](/images/M4_Q8.jpg)
 
-This is still an insane amount of money, but definitely smaller than the sum of the original amount approved. 
+    This is still an insane amount of money, but definitely smaller than the sum of the original amount approved. 
 
 9. I wanted to compare the Service Charge Rate for these projects compared to the total average of the dataset. 
-```sql
-SELECT AVG("Service Charge Rate") FROM "Banking_Data_Feb15"
-WHERE "Project Name" LIKE '%ROAD CONSTRUCTION%' 
-OR "Project Name" LIKE '%ROAD%'
-OR "Project Name" LIKE '%HIGHWAY%';
-```
-![Question 9](/images/M4_Q9.jpg)
+    ```sql
+    SELECT AVG("Service Charge Rate") FROM "Banking_Data_Feb15"
+    WHERE "Project Name" LIKE '%ROAD CONSTRUCTION%' 
+    OR "Project Name" LIKE '%ROAD%'
+    OR "Project Name" LIKE '%HIGHWAY%';
+    ```
+    ![Question 9](/images/M4_Q9.jpg)
 
-0.9298 vs 0.8143 may not seem like a lot, but when you owe millions to billions of dollars, that service charge rate is no joke!
+    0.9298 vs 0.8143 may not seem like a lot, but when you owe millions to billions of dollars, that service charge rate is no joke!
 
 10. Finally, I was interested in which country owed the most amount of money to the IDA for the roadway projects.    
-```sql
-SELECT MAX("Due to IDA (US$)"), "Country" FROM "Banking_Data_Feb15"
-WHERE "Project Name" LIKE '%ROAD CONSTRUCTION%' 
-OR "Project Name" LIKE '%ROAD%'
-OR "Project Name" LIKE '%HIGHWAY%'
-GROUP BY "Country" ORDER BY MAX("Due to IDA (US$)") DESC;
-```
-![Question 10](/images/M4_Q10.jpg)
+    ```sql
+    SELECT MAX("Due to IDA (US$)"), "Country" FROM "Banking_Data_Feb15"
+    WHERE "Project Name" LIKE '%ROAD CONSTRUCTION%' 
+    OR "Project Name" LIKE '%ROAD%'
+    OR "Project Name" LIKE '%HIGHWAY%'
+    GROUP BY "Country" ORDER BY MAX("Due to IDA (US$)") DESC;
+    ```
+    ![Question 10](/images/M4_Q10.jpg)
 
-Here we are, with Viet Nam coming in 1st place for owing the most amount of money to the IDA for these projects. 
+    Here we are, with Viet Nam coming in 1st place for owing the most amount of money to the IDA for these projects. 
 
 ### Major Findings
 
