@@ -4,7 +4,7 @@
 
 ### Learn About My Projects
 
-#### [Financial Analysis](/SQLBankProject.md)
+#### [Financial Analysis](/SQL_Bank_Project.md)
 <img src="images/SQL_Bank2.png?raw=true"/>
 
 
