@@ -8,10 +8,10 @@ The International Development Association (IDA) section of The World Bank provid
 
  ![Road and Mountains](/images/SQL_Bank1.png) 
 
-Throughout history, roads have been an innovative way to connect people. Before roads, think of the modes of transportation used. Typically, people would have traveled by horse or by foot. The wheel was invented prior to paved roads, but it wasn’t the most effective mode of transportation when there was heavy rain. The introduction of paved opened the door for the automotive industry to thrive as well as new technologies such as google maps and waze. Many underdeveloped countries today still do not have paved roads and thus, limited transportation. The IDA provides these countries with loans and grants to help fund projects like these, which is exaclty what we are going to explore!
+Throughout history, roads have been an innovative way to connect people. Before roads, think of the modes of transportation used. Typically, people would have traveled by horse or by foot. The wheel was invented prior to paved roads, but it wasn’t the most effective mode of transportation when there was heavy rain. The introduction of paved roads opened the door for the automotive industry to thrive as well as new technologies such as Google Maps and Waze. Many underdeveloped countries today still do not have paved roads and thus, limited transportation. The IDA provides these countries with loans and grants to help fund projects like these, which is exaclty what we are going to explore!
 
 ### The Data
-For this project, I downloaded the most updated IDA Statement of Credits and Grants available. This dataset was updated on February 15, 2024. It contains ~10.4k rows and 30 columns. Each row represernts a credit or a Grant. The columns represent different data elements such as: Credit Number, Country, Borrower, Credit Status, Service Charge Rate, Project Name, Original Principal Amount (US$), Due to IDA (US$), etc. The Data Dictionary for this data set can be shown in [**Data Dictionary for IBRD Statement of Loans and IDA Statement of Credits and Grants**](https://finances.worldbank.org/api/assets/FF2A5DB3-BBD2-444D-ADA8-90DF4A166980?download=true)
+For this project, I downloaded the most updated IDA Statement of Credits and Grants available. This dataset was updated on February 15, 2024. It contains ~10.4k rows and 30 columns. Each row represents a credit or a grant. The columns represent different data elements such as: Credit Number, Country, Borrower, Credit Status, Service Charge Rate, Project Name, Original Principal Amount (US$), Due to IDA (US$), etc. The Data Dictionary for this data set can be shown in [**Data Dictionary for IBRD Statement of Loans and IDA Statement of Credits and Grants**](https://finances.worldbank.org/api/assets/FF2A5DB3-BBD2-444D-ADA8-90DF4A166980?download=true)
 
 The data can be found following [**This Link**](https://finances.worldbank.org/Loans-and-Credits/IDA-Statement-of-Credits-and-Grants-Latest-Availab/ebmi-69yj/about_data)
 
@@ -30,7 +30,7 @@ I began my analysis with these questions in mind:
 9.	What is the average service charge rate for these projects?
 10.	Which country still owes the most for this specific project?
 
-We know that there are a total of 10,400 transations in this dataset as it is provided by The World Bank website. However, if we didn't know, we could use a simple query to find out.
+We know that there are a total of 10,400 transactions in this dataset as it is provided by The World Bank website. However, if we didn't know, we could use a simple query to find out.
 
 ```sql
 SELECT COUNT(*) FROM "Banking_Data_Feb15";
@@ -39,13 +39,13 @@ SELECT COUNT(*) FROM "Banking_Data_Feb15";
 
 Here we see the count = 10,401 rows. This is including the first row of column headers.
 
-1.
+1. Total owed to the IDA
 ```sql
 SELECT SUM("Due to IDA (US$)") FROM "Banking_Data_Feb15";
 ```
 ![Question 1](/images/M4_Q1.jpg)
 
-2. 
+2. Countries that owe the most to the IDA in descending order.
 ```sql
 SELECT Max("Due to IDA (US$)"), Country FROM "Banking_Data_Feb15"
 GROUP BY Country ORDER BY MAX("Due to IDA (US$)") DESC;
@@ -54,7 +54,7 @@ GROUP BY Country ORDER BY MAX("Due to IDA (US$)") DESC;
 
 The country of Ukraine owes the IDA $1,024,995,109.66. Shocked by this amount of money, I looked further into this project. The service charge rate is 0. Using the [Data Dictionary](https://finances.worldbank.org/api/assets/FF2A5DB3-BBD2-444D-ADA8-90DF4A166980?download=true) for IDA Statement of Credits and Grants for reference, I learned that for loans that could have more than one interest rate, the interest rate is listed as “0”. The Project is the [PEACE in Ukraine Project](https://www.worldbank.org/en/news/feature/2023/07/10/the-world-banks-peace-project-supports-the-government-key-programs-in-ukraine), which began to provide financial support to the Ukraine Government and citizens after the Russian Invasion. The money is distributed as following, “Beneficiaries of the PEACE project include 10 million pensioners, 500,000 education employees, 145,000 government employees, 56,000 first responders, and more than 3 million recipients of social assistance and IDPs.”
 
-3. 
+3. How many projects Ukraine has.
 ```sql
 SELECT COUNT(*) FROM "Banking_Data_Feb15"
 WHERE "Country" = 'Ukraine';
@@ -63,7 +63,7 @@ WHERE "Country" = 'Ukraine';
 
 The only loan Ukraine has is for the PEACE project. 
 
-4. 
+4. Sort the number of projects for each country in ascending order. 
 ```sql
 SELECT "Country", COUNT(*) FROM "Banking_Data_Feb15"
 GROUP BY "Country"
@@ -71,7 +71,7 @@ ORDER BY "Country" ASC;
 ```
 ![Question 4](/images/M4_Q4.jpg)
 
-5. 
+5. Average service charge rate for all the loans/grants.
 ```sql
 SELECT AVG("Service Charge Rate") FROM "Banking_Data_Feb15";
 ```
@@ -100,7 +100,7 @@ OR "Project Name" LIKE '%HIGHWAY%';
 ```
 ![Question 7](/images/M4_Q7.jpg)
 
-8. Now I ran a query to see how much money is still owed to the IDA for these projects. 
+8. Now, I ran a query to see how much money is still owed to the IDA for these projects. 
 ```sql
 SELECT SUM("Due to IDA (US$)") FROM "Banking_Data_Feb15"
 WHERE "Project Name" LIKE '%ROAD CONSTRUCTION%' 
@@ -136,7 +136,7 @@ Here we are, with Viet Nam coming in 1st place for owing the most amount of mone
 
 ### Major Findings
 
-1. The total due to the IDA in this current snapshot for loans is grants is over $197 billion.
+1. The total due to the IDA in this current snapshot for loans/grants is over $197 billion.
 2. Ukraine owes the most to the IDA for their PEACE in Ukraine Project, $1,024,995,109.66.
 3. The average service charge rate for all the loans and grants is 0.9298.
 4. There are 289 projects for road construction, roadways, and highways. *Wildcard used to find any word combinations using road and highway.
