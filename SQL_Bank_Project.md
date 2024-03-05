@@ -63,7 +63,7 @@ Here we see the count = 10,401 rows. This is including the first row of column h
 
     The only loan Ukraine has is for the PEACE project. 
 
-4. Sort the number of projects for each country in ascending order. 
+4. Sort the number of projects for each country in alphabetical order. 
     ```sql
     SELECT "Country", COUNT(*) FROM "Banking_Data_Feb15"
     GROUP BY "Country"
