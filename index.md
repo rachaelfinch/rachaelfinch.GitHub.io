@@ -4,9 +4,9 @@
 
 ### Learn About My Projects
 
-#### [Internal Blog Post Project](/bank)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
-Tolulope is the best
+#### [Financial Analysis](/SQL Bank Project.md)
+<img src="images/SQL_Bank2.png?raw=true"/>
+
 
 ---
 #### [Marketing Project](https://www.linkedin.com/pulse/analyzing-ifood-sales-excel-rachael-finch-lcioe/?trackingId=msuWMUpeTXGAJeUSjRKD9w%3D%3D)
