@@ -133,7 +133,7 @@ Here we see the count = 10,401 rows. This is including the first row of column h
     ```
     ![Question 10](/images/M4_Q10.jpg)
 
-    Here we are, with Viet Nam coming in 1st place for owing the most amount of money to the IDA for these projects. 
+    Here we are, with Vietnam coming in 1st place for owing the most amount of money to the IDA for these projects. 
 
 ### Major Findings
 
@@ -143,7 +143,7 @@ Here we see the count = 10,401 rows. This is including the first row of column h
 4. There are 289 projects for road construction, roadways, and highways. *Wildcard used to find any word combinations using road and highway.
 5. The total amount originally approved to loan out for these specific projects was over $6 billon, while there is only $1.24 billion left to pay back.
 6. The average service charge rate for all the loans and grants is 0.8143.
-7. The top 5 countries that owe the IDA the most are: Viet Nam, Pakistan, Ethiopia, Bangladesh, and India. 
+7. The top 5 countries that owe the IDA the most are: Vietnam, Pakistan, Ethiopia, Bangladesh, and India. 
 
 ### Thank You!
 
