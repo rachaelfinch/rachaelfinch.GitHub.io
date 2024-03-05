@@ -6,7 +6,7 @@
 
 
 #### [Financial Analysis](/SQL_Bank_Project.md)
-<img src="images/SQL_Bank2.png?raw=true"/>
+<img src="images/SQL1.png?raw=true"/>
 A case study exploring data from The World Bank, using SQL queries. I investigated loans and grants from the IDA to various countries. Specifics such as Project Name, Service Charge Rate, Sum of Original Principal Amount, and Sum Owed to IDA were analyzed. 
 
 ---
