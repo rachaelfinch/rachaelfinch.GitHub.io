@@ -16,7 +16,7 @@ A deep dive into marketing behavioral data from iFood (Brazilian DoorDash) utili
 ---
 #### [Education Analysis](https://www.linkedin.com/pulse/using-tableau-analyze-educational-data-rachael-finch-1dxke/)
 [<img src="images/Tableau1-2.png?raw=true"/>](https://www.linkedin.com/pulse/using-tableau-analyze-educational-data-rachael-finch-1dxke/?trackingId=uAeyuBenQu%2BSZ7Jrvu0cug%3D%3D)
-In this case study, I was prompted to analyze education data from the state of Massachusetts. My main objectives included: Determine the schools that have the lowest rates of graduation and those that are excelling,establish if class size impacts the likelihood students will go on to pursue a college degree, and address fourth-grade Math proficiency levels and determine which districts lead the state in scores. 
+In this case study, I was prompted to analyze education data from the state of Massachusetts. My main objectives included: Determine the schools that have the lowest rates of graduation and those that are excelling, establish if class size impacts the likelihood students will go on to pursue a college degree, and address fourth-grade Math proficiency levels and determine which districts lead the state in scores. 
 
 
 
