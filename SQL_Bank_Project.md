@@ -11,21 +11,21 @@ The International Development Association (IDA) section of The World Bank provid
 Throughout history, roads have been an innovative way to connect people. Before roads, think of the modes of transportation used. Typically, people would have traveled by horse or by foot. The wheel was invented prior to paved roads, but it wasn’t the most effective mode of transportation when there was heavy rain. The introduction of paved roads opened the door for the automotive industry to thrive as well as new technologies such as Google Maps and Waze. Many underdeveloped countries today still do not have paved roads and thus, limited transportation. The IDA provides these countries with loans and grants to help fund projects like these, which is exaclty what we are going to explore!
 
 ### The Data
-For this project, I downloaded the most updated IDA Statement of Credits and Grants available. This dataset was updated on February 15, 2024. It contains ~10.4k rows and 30 columns. Each row represents a credit or a grant. The columns represent different data elements such as: Credit Number, Country, Borrower, Credit Status, Service Charge Rate, Project Name, Original Principal Amount (US$), Due to IDA (US$), etc. The Data Dictionary for this data set can be shown in [**Data Dictionary for IBRD Statement of Loans and IDA Statement of Credits and Grants**](https://finances.worldbank.org/api/assets/FF2A5DB3-BBD2-444D-ADA8-90DF4A166980?download=true)
+For this project, I downloaded the most updated IDA Statement of Credits and Grants available. This dataset was updated on February 15, 2024. It contains ~10.4k rows and 30 columns. Each row represents a credit or a grant. (For simplicity, I am going to use the term credit throughout this analysis to refer to loans and grants.) The columns represent different data elements such as: Credit Number, Country, Borrower, Credit Status, Service Charge Rate, Project Name, Original Principal Amount (US$), Due to IDA (US$), etc. The Data Dictionary for this data set can be shown in [**Data Dictionary for IBRD Statement of Loans and IDA Statement of Credits and Grants**](https://finances.worldbank.org/api/assets/FF2A5DB3-BBD2-444D-ADA8-90DF4A166980?download=true)
 
 The data can be found following [**This Link**](https://finances.worldbank.org/Loans-and-Credits/IDA-Statement-of-Credits-and-Grants-Latest-Availab/ebmi-69yj/about_data)
 
-I began exploring this dataset with SQL (Standard Query Language) queries using [csvfiddle.io](https://csvfiddle.io/#JTdCJTIyaXNUYWJsZU1ldGFkYXRhT3BlbiUyMiUzQWZhbHNlJTJDJTIyaXNOZXdUYWJsZUZvcm1PcGVuJTIyJTNBZmFsc2UlMkMlMjJpc0NvbmZpcm1EZWxldGVRdWVyeU9wZW4lMjIlM0FmYWxzZSUyQyUyMmlzQ29uZmlybURyb3BUYWJsZU9wZW4lMjIlM0FmYWxzZSUyQyUyMmlzU2hhcmVEaWFsb2dPcGVuJTIyJTNBZmFsc2UlMkMlMjJkYlJlYWR5JTIyJTNBZmFsc2UlMkMlMjJ0YWJsZXMlMjIlM0ElNUIlNUQlMkMlMjJxdWVyaWVzJTIyJTNBJTdCJTIyMCUyMiUzQSU3QiUyMmlkJTIyJTNBMCUyQyUyMnRpdGxlJTIyJTNBJTIyVW50aXRsZWQlMjBxdWVyeSUyMiUyQyUyMmJvZHklMjIlM0ElMjIlMjIlMkMlMjJyZXN1bHQlMjIlM0ElNUIlNUQlMkMlMjJlcnJvciUyMiUzQW51bGwlN0QlN0QlMkMlMjJhY3RpdmVRdWVyeUlkJTIyJTNBMCUyQyUyMmFjdGl2ZVRhYmxlTWV0YWRhdGFDb2x1bW5zJTIyJTNBJTVCJTVEJTJDJTIybG9jYWxUYWJsZXNUb1dhcm4lMjIlM0ElNUIlNUQlMkMlMjJpc1F1ZXJ5SW5Qcm9ncmVzcyUyMiUzQWZhbHNlJTJDJTIyZGlkQWRkTmV3VGFibGVTdWNjZWVkJTIyJTNBbnVsbCUyQyUyMmFkZE5ld1RhYmxlRXJyb3IlMjIlM0FudWxsJTdE). After learning what type of information I was working with, I decided to focus on a specific type of Project that these countries need loans for. There were options related to agriculture, education, water, and power. However, I decided to choose transportation routes such as roadways and highways as my project of choice. 
+I began exploring this dataset with SQL (Standard Query Language) queries using [csvfiddle.io](https://csvfiddle.io/#JTdCJTIyaXNUYWJsZU1ldGFkYXRhT3BlbiUyMiUzQWZhbHNlJTJDJTIyaXNOZXdUYWJsZUZvcm1PcGVuJTIyJTNBZmFsc2UlMkMlMjJpc0NvbmZpcm1EZWxldGVRdWVyeU9wZW4lMjIlM0FmYWxzZSUyQyUyMmlzQ29uZmlybURyb3BUYWJsZU9wZW4lMjIlM0FmYWxzZSUyQyUyMmlzU2hhcmVEaWFsb2dPcGVuJTIyJTNBZmFsc2UlMkMlMjJkYlJlYWR5JTIyJTNBZmFsc2UlMkMlMjJ0YWJsZXMlMjIlM0ElNUIlNUQlMkMlMjJxdWVyaWVzJTIyJTNBJTdCJTIyMCUyMiUzQSU3QiUyMmlkJTIyJTNBMCUyQyUyMnRpdGxlJTIyJTNBJTIyVW50aXRsZWQlMjBxdWVyeSUyMiUyQyUyMmJvZHklMjIlM0ElMjIlMjIlMkMlMjJyZXN1bHQlMjIlM0ElNUIlNUQlMkMlMjJlcnJvciUyMiUzQW51bGwlN0QlN0QlMkMlMjJhY3RpdmVRdWVyeUlkJTIyJTNBMCUyQyUyMmFjdGl2ZVRhYmxlTWV0YWRhdGFDb2x1bW5zJTIyJTNBJTVCJTVEJTJDJTIybG9jYWxUYWJsZXNUb1dhcm4lMjIlM0ElNUIlNUQlMkMlMjJpc1F1ZXJ5SW5Qcm9ncmVzcyUyMiUzQWZhbHNlJTJDJTIyZGlkQWRkTmV3VGFibGVTdWNjZWVkJTIyJTNBbnVsbCUyQyUyMmFkZE5ld1RhYmxlRXJyb3IlMjIlM0FudWxsJTdE). After learning what type of information I was working with, I decided to focus on a specific type of Project that these countries need credits for. There were options related to agriculture, education, water, and power. However, I decided to choose transportation routes such as roadways and highways as my project of choice. 
 
 ### Analysis
 I began my analysis with these questions in mind:
 1.	How much is owed to the IDA?
-2.	What country owes the IDA the most and what is their loan total?
-3.	How many total transactions does this country have?
-4.	How many loans/grants does each country have?
-5.	What is the average service charge rate for the given loans?
-6.	How many loans/grants have a project name of 'Roads' or the name of 'Highway’?
-7.	What is the Sum of the Original Principal Amount (US$) of the loans/grants?
+2.	What country owes the IDA the most and what is their credit total?
+3.	How many total transactions does this country (Q2) have?
+4.	How many projects does each country have credits for?
+5.	What is the average service charge rate for the given credits?
+6.	How many Project Names are listed as 'Roads' or the name of 'Highway’?
+7.	What is the Sum of the Original Principal Amount (US$) of the credits?
 8.	How much is owed to the IDA for these projects?
 9.	What is the average service charge rate for these projects?
 10.	Which country still owes the most for this specific project?
@@ -61,7 +61,7 @@ Here we see the count = 10,401 rows. This is including the first row of column h
     ```
     ![Question 3](/images/M4_Q3.jpg)
 
-    The only loan Ukraine has is for the PEACE project. 
+    The only credit Ukraine has is for the PEACE project. 
 
 4. Sort the number of projects for each country in alphabetical order. 
     ```sql
@@ -71,7 +71,7 @@ Here we see the count = 10,401 rows. This is including the first row of column h
     ```
     ![Question 4](/images/M4_Q4.jpg)
 
-5. Average service charge rate for all the loans/grants.
+5. Average service charge rate for all the credits.
     ```sql
     SELECT AVG("Service Charge Rate") FROM "Banking_Data_Feb15";
     ```
@@ -81,7 +81,7 @@ Here we see the count = 10,401 rows. This is including the first row of column h
 
     Here I began to write SQL queries specific to transportation projects. There were many options including railroads and urban transport, but for simplicity, I stuck to roads and highways.
 
-6. I ran the following query to get the total number of loans/grants for projects listed as a phrase with Road Construction, Road, or Highway. 
+6. I ran the following query to get the total number of credits for projects listed as a phrase with Road Construction, Road, or Highway. 
     ```sql
     SELECT COUNT(*) FROM Banking_Data_Feb15
     WHERE "Project Name" LIKE '%ROAD CONSTRUCTION%' 
@@ -92,7 +92,7 @@ Here we see the count = 10,401 rows. This is including the first row of column h
 
     The wildcard symbol "%", was helpful to find other projects that would be listed as, "ROADWAYS or HIGHWAY MAINT".
 
-7. I was interested in how much money has been used for roadway transportation projects, not just what is still owed to the IDA. For this reason, I wrote a query to calculate the sum of the original principal amount which is the original amount of that loan that is committed and approved. 
+7. I was interested in how much money has been used for roadway transportation projects, not just what is still owed to the IDA. For this reason, I wrote a query to calculate the sum of the original principal amount which is the original amount of that credit that is committed and approved. 
     ```sql
     SELECT SUM("Original Principal Amount (US$)") FROM "Banking_Data_Feb15"
     WHERE "Project Name" LIKE '%ROAD CONSTRUCTION%' 
@@ -137,12 +137,12 @@ Here we see the count = 10,401 rows. This is including the first row of column h
 
 ### Major Findings
 
-1. The total due to the IDA in this current snapshot for loans/grants is over $197 billion.
+1. The total due to the IDA in this current snapshot for credits is over $197 billion.
 2. Ukraine owes the most to the IDA for their PEACE in Ukraine Project, $1,024,995,109.66.
-3. The average service charge rate for all the loans and grants is 0.9298.
+3. The average service charge rate for all the credits is 0.9298.
 4. There are 289 projects for road construction, roadways, and highways. *Wildcard used to find any word combinations using road and highway.
 5. The total amount originally approved to loan out for these specific projects was over $6 billon, while there is only $1.24 billion left to pay back.
-6. The average service charge rate for all the loans and grants is 0.8143.
+6. The average service charge rate for the selected projects is 0.8143.
 7. The top 5 countries that owe the IDA the most are: Vietnam, Pakistan, Ethiopia, Bangladesh, and India. 
 
 ### Thank You!
