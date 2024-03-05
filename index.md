@@ -9,11 +9,6 @@
 Tolulope is the best
 
 ---
-#### [Linked File Project](/files/Day 12 - 21 days to data.pdf)
-<img src="images/21 Days To Data Challenge.png?raw=true"/>
-For this project, I explored what a good analytics PowerPoint presentation should entail. It talks about main talking points, how to tie data to the business value, and much more. 
-
----
 #### [Marketing Project](https://www.linkedin.com/pulse/analyzing-ifood-sales-excel-rachael-finch-lcioe/?trackingId=msuWMUpeTXGAJeUSjRKD9w%3D%3D)
 [<img src="images/Viz iFood Data.png?raw=true"/>](https://www.linkedin.com/pulse/analyzing-ifood-sales-excel-rachael-finch-lcioe/?trackingId=msuWMUpeTXGAJeUSjRKD9w%3D%3D)
 A deep dive into marketing behavioral data from iFood (Brazilian DoorDash) utilizing Excel. This project entailed looking at the success of various marketing campagins and getting to know the customer base and their buying habits. 
