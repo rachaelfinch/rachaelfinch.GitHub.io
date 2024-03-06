@@ -3,8 +3,8 @@
 
 ### About Me
 
-Hi! I am a northerner born and raised, but currently living in the south! I love the outdoors and recently have gotten more into running. I ran my first half-marathon this past January. My fiance and I have two calico cats named Georgia and Luna, and I love to cook and code! 
-<img src="images/P_21.JPG?raw=true"/>
+Hi! I am a northerner born and raised, but currently living in the south. I love the outdoors and recently have gotten more into running. I ran my first half-marathon this past January. My fiance and I have two calico cats named Georgia and Luna, and I love to cook and code! 
+<img src="images/P_21.JPG?raw=true"/width="500">
 
 ### Learn About My Projects
 
