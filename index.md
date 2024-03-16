@@ -8,12 +8,13 @@ Hi! I am a northerner born and raised, but currently living in the south. I love
 <img src="images/P_21.JPG" width="350">
 
 ### Learn About My Projects
+---
 
 #### [Healthcare Analysis](https://www.linkedin.com/pulse/increasing-patient-outcomes-using-sql-rachael-finch-velvc/?trackingId=jXem1tIxTPOApUjIvuuKJw%3D%3D)
 <img src="images/HealthcareSQL.png?raw=true"/>
-A deep dive into a large dataset of over 70,000 individuals admitted to U.S. hospitals. My focuse revolved mainly around the length of stay (KPI) and the utilization of lab procedures and medications for these patients. Using SQL, I discovered key insights 
+A deep dive into a large dataset of over 70,000 individuals admitted to U.S. hospitals. My focuse revolved mainly around the length of stay (KPI) and the utilization of lab procedures and medications for these patients. By leveraging SQL, I unearthed valuable insights crucial for stakeholders and offered strategic directions for the future based on the analysis.
 
-
+---
 #### [Financial Analysis](/SQL_Bank_Project.md)
 <img src="images/SQL1.png?raw=true"/>
 A case study exploring data from The World Bank, using SQL queries. I investigated loans and grants from the IDA to various countries. Specifics such as Project Name, Service Charge Rate, Sum of Original Principal Amount, and Sum Owed to IDA were analyzed. 
