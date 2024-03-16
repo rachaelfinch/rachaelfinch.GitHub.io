@@ -9,6 +9,9 @@ Hi! I am a northerner born and raised, but currently living in the south. I love
 
 ### Learn About My Projects
 
+#### [Healthcare Analysis] (https://www.linkedin.com/pulse/increasing-patient-outcomes-using-sql-rachael-finch-velvc/?trackingId=jXem1tIxTPOApUjIvuuKJw%3D%3D)
+
+
 
 #### [Financial Analysis](/SQL_Bank_Project.md)
 <img src="images/SQL1.png?raw=true"/>
