@@ -9,7 +9,7 @@ Hi! I am a northerner born and raised, but currently living in the south. I love
 
 ### Learn About My Projects
 
-#### [Healthcare Analysis] (https://www.linkedin.com/pulse/increasing-patient-outcomes-using-sql-rachael-finch-velvc/?trackingId=jXem1tIxTPOApUjIvuuKJw%3D%3D)
+#### [Healthcare Analysis](https://www.linkedin.com/pulse/increasing-patient-outcomes-using-sql-rachael-finch-velvc/?trackingId=jXem1tIxTPOApUjIvuuKJw%3D%3D)
 <img src="images/HealthcareSQL.png?raw=true"/>
 A deep dive into a large dataset of over 70,000 individuals admitted to U.S. hospitals. My focuse revolved mainly around the length of stay (KPI) and the utilization of lab procedures and medications for these patients. Using SQL, I discovered key insights 
 
