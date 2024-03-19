@@ -2,7 +2,11 @@
 
 **Project description:** Have you ever had a conversation with someone about basketball who is a devoted fan? I am always surrounded by sports fanatics so I took this opportunity to understand the NBA in more depth. 
 
+### The Data
+
 For this project, I used the 2022-2023 Player Stats: Totals dataset from [Basketball-Reference](https://www.basketball-reference.com/leagues/NBA_2023_totals.html)
+
+There was a total of 539 players, but with all the trades made this season, there were 680 rows. There were 32 columns which included stats such as shooting percentage for different shots, rebounds, assists, and turnovers and other informatin such as rank, team, and position. I used **Tableau** to create visualizations and a story to share my findings. 
 
 
 ### Major Findings
@@ -20,7 +24,7 @@ For this project, I used the 2022-2023 Player Stats: Totals dataset from [Basket
 
 ### Leading Scorer
 
-While Tatum scored 2225 points during the whole season, he also played 74 games. While this is beneficial to the Celtics, it actually reduced his average points per game compared to other players like Joel Embiid and Luka Doncic who only played 66 games during the season. Reasons such as load management and injuries often reduce player's total games played. 
+Looking at the first bubble plot for stats totals, we see that Jayson Tatum scored the most, 2225 points during the whole season. I went through the raw data and sorted the players by the number of games each player played. The maximum number of games played was 83 and the minumum was 1 game. Tatum played 74 games. While this is beneficial to the Celtics, it actually reduced his average points per game compared to other players like Joel Embiid and Luka Doncic who only played 66 games during the season. Reasons such as load management and injuries often reduce player's total games played. 
 
 ### The Goat vs The Greek Freak
 
