@@ -1,4 +1,6 @@
-## NBA 2022-2023 Season Stats
+## 2022-2023 NBA Season Stats
+
+<img src="images/NBAC.png?raw=true"/>
 
 **Project description:** Have you ever had a conversation with someone who is a die hard sports fan? I am talking about that type of person whose seasons revolves around baseball, basketball, football, and hockey not spring, summer, fall, and winter. I am always surrounded by sports fanatics so I took this opportunity to understand the NBA more in depth and provide some data driven insights. 
 
