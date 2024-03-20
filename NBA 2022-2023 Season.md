@@ -18,7 +18,7 @@ There was a total of 539 players, but with all the trades made this season, ther
 
 ### Dominating Centers
 
-<img src="images/assists.png?raw=true"/>
+<img src="images/Assists.png?raw=true"/>
 
 ### League MVP
 
