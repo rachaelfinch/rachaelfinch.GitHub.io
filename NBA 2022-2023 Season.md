@@ -24,9 +24,14 @@ There was a total of 539 players, but with all the trades made this season, ther
 
 <img src="images/Assists.png?raw=true"/>
 
-### League MVP
+### 2022-2023 League MVP
 
 Using this bubble scatter plot, the x and y axes represent average points per game and average assists per games, respectively. The size of the bubble correlates with the average number of rebounds per game. 
+
+Embiid put up on average, 33.1 points per game, 4.2 assists, and 10.2 rebounds. While he doesn't lead the centers with the most assists, he comes in second place for top scorer in the NBA with 2183 points. The only other 3 players to score over 2,0000 points this season were point guards and small forwards. 
+
+**Embiid was the MVP**. There is some controversy with Denver fans as to why Jokic didn't receive the MVP. Embiid played 66 games while Jokic played 69. A three game difference likely wouldn't affect the average stats very much. While Embiid led his team to the NBA playoffs, and played fantastic, they lost to the Celtics in the conference semifinals. Jokic led his team all the way to the finals and won. However, he secured the title with 73 votes while runners up where Nikola Jokic with 15 and Giannis Antetokounmpo with 12.
+
 <img src="images/BubbleA.png?raw=true"/>
 
 ### Leading Scorer
