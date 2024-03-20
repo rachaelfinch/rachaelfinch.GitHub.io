@@ -35,7 +35,7 @@ Using this bubble scatter plot, the x and y axes represent average points per ga
 
 Embiid put up on average, 33.1 points per game, 4.2 assists, and 10.2 rebounds. While he doesn't lead the centers with the most assists, he comes in second place for top scorer in the NBA with 2183 points. The only other 3 players to score over 2,0000 points this season were point guards and small forwards. 
 
-**Embiid was the MVP**. There is some controversy with Denver fans as to why Jokic didn't receive the MVP. Embiid played 66 games while Jokic played 69. A three game difference likely wouldn't affect the average stats very much. While Embiid led his team to the NBA playoffs, and played fantastic, they lost to the Celtics in the conference semifinals. Jokic led his team all the way to the finals and won. However, he secured the title with 73 votes while runners up where Nikola Jokic with 15 and Giannis Antetokounmpo with 12.
+**Embiid was the MVP**. There is some controversy with Denver fans as to why Jokic didn't receive the MVP. Embiid played 66 games while Jokic played 69. A three game difference likely wouldn't affect the average stats very much. While Embiid led his team to the NBA playoffs, and played fantastic, they lost to the Celtics in the conference semifinals. Jokic led his team all the way to the finals and won. However, Embiid secured the title of MVP with 73 votes. Runners up were Nikola Jokic with 15 votes and Giannis Antetokounmpo with 12.
 
 <img src="images/BubbleA.png?raw=true"/>
 
@@ -53,7 +53,7 @@ LeBron James is often referred to as "The Goat", however, I do not agree. Michae
 
 ### Basketball Becoming Less Positional
 
-I recently read an article about the NBA going offically position-less in the 2024-2025 NBA season. This is big news. Over the last decade, the game has changed so much. Players like Jokic for example who are centers are also some of the best passers. Additionally, seen in this 3 point percentage heatmap, it is also evident that some centers are leading teams in 3 pointers as well. Gone is the day where point guards and shooting guards dominated the scoreboard. 
+I recently read an article about the NBA going offically position-less in the 2024-2025 NBA season. This is big news. Over the last decade, the game has changed so much. Portrayed in this 3 point percentage heatmap, it is evident that centers are dominating and leading the following teams in 3 pointers: Atlanta Hawks, Boston Celtics, Brooklyn Nets, Houston Rockets, Utah Jazz, Washington Wizards, and Oklahoma City Thunder-tied with their shooting guards. Players like Al Horford on the Celtics shooting 44.6% from the 3-point line and Kristaps Porzingis on the Washington Wizards with 38.5% exemplify how centers are no longer stuck in the paint. Gone is the day where point guards and shooting guards dominate the scoreboard. 
 
 <img src="images/3pt.png?raw=true"/>
 
@@ -61,7 +61,7 @@ I recently read an article about the NBA going offically position-less in the 20
 
 This [Forbes article](https://www.forbes.com/sites/bryantoporek/2024/02/29/how-the-nbas-65-game-rule-for-awards-impacts-players-contract-bonuses/?sh=6807625534e3) discusses all the changes that will go into effect next season. One crucial change is that palyers have to play 20 minutes in at least 63 games and 15-20 minutes in two games in order to be eligible for most awards. With these new rules, the reigning MVP, Embiid, would not be eligible for MVP. These new rules with be hard hitting for players who face injuries during the season.
 
-As seen in the analysis, the top perfoming Centers like Jokic and Sabonis have developed into a more well-rounded players as they dominate in passing as well as shooting. It will be interesting to see how the positionless game affects players like James and Antetokounmpo who play at almost an equal level as well as players like Tatum and Embiid who led the league in scoring. 
+As seen in the analysis, the top perfoming Centers like Jokic and Sabonis have developed into more well-rounded players as they dominate in passing as well as shooting. It will be interesting to see how the positionless game affects players like James and Antetokounmpo who play at almost an equal level as well as players like Tatum and Embiid who led the league in scoring. 
 
 ### Traditions That Remain
 Come March every year, the atmosphere around basketball always becomes more exciting. This intensre draw to the sport is usually fueled by the NCAA March Madness tournament. While completing this project, I found myself spending every night after work tuning into an NBA game. I hope this project inspires you to catch a game or even get involved in March Madness at the collegiate level and make a bracket!
