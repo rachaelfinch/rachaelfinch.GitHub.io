@@ -53,7 +53,7 @@ Also, seen in the bubble scatter plot for total stats, **Tatum is the leading sc
 
 LeBron James is often referred to as "The Goat", however, I do not agree. Michael Jordan will forever be The Goat, but that is not part of this analysis. It is apparent in this data that both James and Antetokounmpo are highly performing power forwards. Considering secondary positions, James would be a point guard and Antetokounmpo would be a center. **Antetokounmpo outscores and outrebounds James, but James has more assists per game**. They are both fairly similar in size, Antetokounmpo is 6'11", 243 lbs, with a 7'3" wingspand and James is 6'9", 250 lbs, with a 7'0" wingspang. James is also 39 years old and has spent 21 years in the league while Antetokounmpo is on his 11th year in the league at the age of 29. The question is, will Antetokounmpo be on the same level of play in 10 years? We will have to wait and see. 
 
-<img src="images/BubbleT.png?raw=true"/>
+<img src="images/Bubble.png?raw=true"/>
 
 ### Basketball Becoming Less Positional
 
