@@ -10,6 +10,8 @@ For this project, I used the 2022-2023 Player Stats: Totals dataset from [Basket
 
 There was a total of 539 players, but with all the trades made this season, there were 680 rows. There were 32 columns which included stats such as shooting percentage for different shots, rebounds, assists, and turnovers and other informatin such as rank, team, and position. I used **Tableau** to create visualizations and a story to share my findings. The color scheme used is to differentiate the positions that the players are on each team. Dark blue = Centers, Orange = Power Forwards, light grey = Point Guards, dark grey = Small Forwards, and light blue = Shooting Guards. 
 
+<img src="images/Legend.png?raw=true"/>
+
 ### Major Findings
 
 - Nikola Jokic and Domantas Sabonis outperformed many point guards regarding their total number of assists.
@@ -24,6 +26,7 @@ There was a total of 539 players, but with all the trades made this season, ther
 
 ### League MVP
 
+Using this bubble scatter plot, the x and y axes represent average points per game and average assists per games, respectively. The size of the bubble correlates with the average number of rebounds per game. 
 <img src="images/BubbleA.png?raw=true"/>
 
 ### Leading Scorer
