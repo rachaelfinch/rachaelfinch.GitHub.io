@@ -51,4 +51,4 @@ LeBron James is often referred to as "The Goat", however, I do not agree. Michae
 <img src="images/3pt.png?raw=true"/>
 
 ### 
-Come March every year, the atmosphere around basketball always becomes more exciting. This intensre draw to the sport is usually fueled by the NCAA March Madness tournament. While completing this project, I found myself spending every night after work tuning into an NBA game. 
+Come March every year, the atmosphere around basketball always becomes more exciting. This intensre draw to the sport is usually fueled by the NCAA March Madness tournament. While completing this project, I found myself spending every night after work tuning into an NBA game. I hope this project inspires you to catch a game or even get involved in March Madness at the collegiate level and make a bracket!
