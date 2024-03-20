@@ -41,7 +41,7 @@ Embiid put up on average, 33.1 points per game, 4.2 assists, and 10.2 rebounds. 
 
 ### Leading Scorer
 
-Looking at the first bubble plot for stats totals, we see that Jayson Tatum scored the most, 2225 points during the whole season. I went through the raw data and sorted the players by the number of games each player played. The maximum number of games played was 83 (a traded player as the NBA has 82 regular season games) and the minumum was 1 game. Tatum played 74 games. While this is beneficial to the Celtics, it actually reduced his average points per game compared to other players like Joel Embiid and Luka Doncic who only played 66 games during the season. Reasons such as load management and injuries often reduce player's total games played. 
+Looking at the stacked barchart for leading scorers, we see that Jayson Tatum scored the most for the Celtics. Also, seen in the bubble scatter plot for total stats, Tatum is the leading scorer in the whole league with 2225 points. I was curious as to why his ranking for leading scorer dropped so much whe the average was taken into consideration. I looked at the raw data and the maximum number of games played was 83 (a traded player as the NBA has 82 regular season games) and the minumum was 1 game. Tatum played 74 games. While this is beneficial to the Celtics, it actually reduced his average points per game compared to other players like Joel Embiid and Luka Doncic who only played 66 games during the season. Reasons such as load management and injuries often reduce player's total games played. 
 
 <img src="images/Lscorers.png?raw=true"/>
 
