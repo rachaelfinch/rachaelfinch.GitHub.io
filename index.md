@@ -12,6 +12,7 @@ Hi! I am a northerner born and raised, but currently living in the south. I love
 
 #### [Sports Analysis](/NBA_2022-2023_Season.md)
 <img src="images/NBAI.png?raw=true"/>
+A visual exploration into the 2022-2023 NBA season player stats using Tableau. In this project, I created a story to show how the NBA is transitioning to a position-less game by focusing on key stats such as assits, rebounds, and points. 
 
 #### [Healthcare Analysis](https://www.linkedin.com/pulse/increasing-patient-outcomes-using-sql-rachael-finch-velvc/?trackingId=jXem1tIxTPOApUjIvuuKJw%3D%3D)
 <img src="images/HealthcareSQL.png?raw=true"/>
