@@ -22,6 +22,8 @@ There was a total of 539 players, but with all the trades made this season, ther
 
 ### Dominating Centers
 
+In order to organize data for assists per player per position, I used a Treemap. This allowed me to show hierarchical data as a set of nested rectangles. The largest rectangle represents the point guards, as they typically have the most assists. I also restricted the data to only show players who had at least 200 assists. While the smallest rectangle is composed of the centers, it is important to note that the leading centers, Jokic and Sabonis, have stats as high as some of the leading point guards. As a center, typically you are "fed the ball" to score in the paint. However, in an interview with Jokic, he explains the differences between European and American basketball. The size of the court, the lines, and some rules are different. Having started playing basketball in Europe, Jokic and Sabonis may have a different style of play that allows them to thrive more in the NBA.
+
 <img src="images/Assists.png?raw=true"/>
 
 ### 2022-2023 League MVP
@@ -48,7 +50,13 @@ LeBron James is often referred to as "The Goat", however, I do not agree. Michae
 
 ### Basketball Becoming Less Positional
 
+I recently read an article about the NBA going offically position-less in the 2024-2025 NBA season. This is big news. Over the last decade, the game has changed so much. Players like Jokic for example who are centers are also some of the best passers. Additionally, seen in this 3 point percentage heatmap, it is also evident that some centers are leading teams in 3 pointers as well. Gone is the day where point guards and shooting guards dominated the scoreboard. 
+
 <img src="images/3pt.png?raw=true"/>
 
-### 
+### Changing The Game
+
+This [Forbes article](https://www.forbes.com/sites/bryantoporek/2024/02/29/how-the-nbas-65-game-rule-for-awards-impacts-players-contract-bonuses/?sh=6807625534e3) discusses all the changing that will go into effect next season. One crucial change is that palyers have to play 20 minutes in at least 63 games and 15-20 minutes in two games in order to be eligible for most awards. With these new rules, the reigning MVP, Embiid, would not be eligible for MVP. These new rules with be hard hitting for players who face injuries during the season.
+
+### Traditions That Remain
 Come March every year, the atmosphere around basketball always becomes more exciting. This intensre draw to the sport is usually fueled by the NCAA March Madness tournament. While completing this project, I found myself spending every night after work tuning into an NBA game. I hope this project inspires you to catch a game or even get involved in March Madness at the collegiate level and make a bracket!
