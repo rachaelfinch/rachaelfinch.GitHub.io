@@ -59,7 +59,7 @@ I recently read an article about the NBA going offically position-less in the 20
 
 ### Changing The Game
 
-This [Forbes article](https://www.forbes.com/sites/bryantoporek/2024/02/29/how-the-nbas-65-game-rule-for-awards-impacts-players-contract-bonuses/?sh=6807625534e3) discusses all the changing that will go into effect next season. One crucial change is that palyers have to play 20 minutes in at least 63 games and 15-20 minutes in two games in order to be eligible for most awards. With these new rules, the reigning MVP, Embiid, would not be eligible for MVP. These new rules with be hard hitting for players who face injuries during the season.
+This [Forbes article](https://www.forbes.com/sites/bryantoporek/2024/02/29/how-the-nbas-65-game-rule-for-awards-impacts-players-contract-bonuses/?sh=6807625534e3) discusses all the changes that will go into effect next season. One crucial change is that palyers have to play 20 minutes in at least 63 games and 15-20 minutes in two games in order to be eligible for most awards. With these new rules, the reigning MVP, Embiid, would not be eligible for MVP. These new rules with be hard hitting for players who face injuries during the season.
 
 As seen in the analysis, the top perfoming Centers like Jokic and Sabonis have developed into a more well-rounded players as they dominate in passing as well as shooting. It will be interesting to see how the positionless game affects players like James and Antetokounmpo who play at almost an equal level as well as players like Tatum and Embiid who led the league in scoring. 
 
