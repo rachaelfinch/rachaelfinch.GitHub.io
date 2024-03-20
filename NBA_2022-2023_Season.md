@@ -16,7 +16,7 @@ Have you ever had a conversation with someone who is a die hard sports fan? I am
 
 For this project, I used the 2022-2023 Player Stats: Totals dataset from [Basketball-Reference](https://www.basketball-reference.com/leagues/NBA_2023_totals.html)
 
-There was a total of 539 players, but with all the trades made this season, there were 680 rows. There were 32 columns which included stats such as shooting percentage for different shots, rebounds, assists, and turnovers and other informatin such as rank, team, and position. I used **Tableau** to create visualizations and a story to share my findings. The color scheme used is to differentiate the positions that the players are on each team. Dark blue = Centers, Orange = Power Forwards, light grey = Point Guards, dark grey = Small Forwards, and light blue = Shooting Guards. 
+There was a total of 539 players, but with all the trades made this season, there were 680 rows. There were 32 columns which included stats such as shooting percentage for different shots, rebounds, assists, and turnovers and other informatin such as rank, team, and position. I used **Tableau** to create visualizations and a story to share my findings. The color scheme used is to differentiate the positions that the players are on each team. Dark blue = Centers, Orange = Power Forwards, Light Grey = Point Guards, Dark Grey = Small Forwards, and Light Blue = Shooting Guards. 
 
 <img src="images/Legend.png?raw=true"/>
 
@@ -31,9 +31,9 @@ In order to organize the data for assists per player, per position, I used a Tre
 
 ### 2022-2023 League MVP
 
-Using this bubble scatter plot, the x and y axes represent average points per game and average assists per games, respectively. The size of the bubble correlates with the average number of rebounds per game. 
+Using this bubble scatter plot, the X and Y axes represent average points per game and average assists per games, respectively. The size of the bubble correlates with the average number of rebounds per game. 
 
-Embiid put up on average, 33.1 points per game, 4.2 assists, and 10.2 rebounds. While he doesn't lead the centers with the most assists, he comes in second place for top scorer in the NBA with 2183 points. The only other 3 players to score over 2,0000 points this season were point guards and small forwards. 
+Embiid put up on average, 33.1 points per game, 4.2 assists, and 10.2 rebounds. While he doesn't lead the centers with the most assists, he comes in second place for top scorer in the NBA with 2183 points. The only other 3 players to score over 2,0000 points during the season were point guards and small forwards. 
 
 **Embiid was the MVP**. There is some controversy with Denver fans as to why Jokic didn't receive the MVP. Embiid played 66 games while Jokic played 69. A three game difference likely wouldn't affect the average stats very much. While Embiid led his team to the NBA playoffs, and played fantastic, they lost to the Celtics in the conference semifinals. Jokic led his team all the way to the finals and won. However, Embiid secured the title of MVP with 73 votes. Runners up were Nikola Jokic with 15 votes and Giannis Antetokounmpo with 12.
 
@@ -41,13 +41,13 @@ Embiid put up on average, 33.1 points per game, 4.2 assists, and 10.2 rebounds. 
 
 ### Leading Scorer
 
-Looking at the first bubble plot for stats totals, we see that Jayson Tatum scored the most, 2225 points during the whole season. I went through the raw data and sorted the players by the number of games each player played. The maximum number of games played was 83 and the minumum was 1 game. Tatum played 74 games. While this is beneficial to the Celtics, it actually reduced his average points per game compared to other players like Joel Embiid and Luka Doncic who only played 66 games during the season. Reasons such as load management and injuries often reduce player's total games played. 
+Looking at the first bubble plot for stats totals, we see that Jayson Tatum scored the most, 2225 points during the whole season. I went through the raw data and sorted the players by the number of games each player played. The maximum number of games played was 83 (a traded player as the NBA has 82 regular season games) and the minumum was 1 game. Tatum played 74 games. While this is beneficial to the Celtics, it actually reduced his average points per game compared to other players like Joel Embiid and Luka Doncic who only played 66 games during the season. Reasons such as load management and injuries often reduce player's total games played. 
 
 <img src="images/Lscorers.png?raw=true"/>
 
 ### The Goat vs The Greek Freak
 
-LeBron James is often referred to as "The Goat", however, I do not agree. Michael Jordan will forever be The Goat, but that is not part of this analysis. It is apparent in this data that both James and Antetokounmpo are highly performing power forwards. Antetokounmpo outscores and outrebounds James, but James has more assists per game. They are both fairly similar in size, Antetokounmpo is 6'11", 243 lbs, with a 7'3" wingspand and James is 6'9", 250 lbs, with a 7'0" wingspang. James is also 39 years old and has spent 21 years in the league while Antetokounmpo is on his 11th year in the league at the age of 29. The question is will Antetokounmpo be on the same level of play in 10 years? We will have to wait and see. 
+LeBron James is often referred to as "The Goat", however, I do not agree. Michael Jordan will forever be The Goat, but that is not part of this analysis. It is apparent in this data that both James and Antetokounmpo are highly performing power forwards. Considering secondary positions, James would be a point guard and Antetokounmpo would be a center. Antetokounmpo outscores and outrebounds James, but James has more assists per game. They are both fairly similar in size, Antetokounmpo is 6'11", 243 lbs, with a 7'3" wingspand and James is 6'9", 250 lbs, with a 7'0" wingspang. James is also 39 years old and has spent 21 years in the league while Antetokounmpo is on his 11th year in the league at the age of 29. The question is, will Antetokounmpo be on the same level of play in 10 years? We will have to wait and see. 
 
 <img src="images/BubbleA.png?raw=true"/>
 
