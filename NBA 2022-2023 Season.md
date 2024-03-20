@@ -2,15 +2,7 @@
 
 <img src="images/NBAC.png?raw=true"/>
 
-Have you ever had a conversation with someone who is a die hard sports fan? I am talking about that type of person whose seasons revolves around baseball, basketball, football, and hockey not spring, summer, fall, and winter. I am always surrounded by sports fanatics so I took this opportunity to understand the NBA more in depth and provide some data driven insights. 
-
-### The Data
-
-For this project, I used the 2022-2023 Player Stats: Totals dataset from [Basketball-Reference](https://www.basketball-reference.com/leagues/NBA_2023_totals.html)
-
-There was a total of 539 players, but with all the trades made this season, there were 680 rows. There were 32 columns which included stats such as shooting percentage for different shots, rebounds, assists, and turnovers and other informatin such as rank, team, and position. I used **Tableau** to create visualizations and a story to share my findings. The color scheme used is to differentiate the positions that the players are on each team. Dark blue = Centers, Orange = Power Forwards, light grey = Point Guards, dark grey = Small Forwards, and light blue = Shooting Guards. 
-
-<img src="images/Legend.png?raw=true"/>
+Have you ever had a conversation with someone who is a die hard sports fan? I am talking about that type of person whose seasons revolve around baseball, basketball, football, and hockey not spring, summer, fall, and winter. I am always surrounded by sports fanatics so I took this opportunity to understand the NBA more in depth and provide some data driven insights. 
 
 ### Major Findings
 
@@ -19,10 +11,19 @@ There was a total of 539 players, but with all the trades made this season, ther
 - Jayson Tatum led the league in total points scored, playing a total of 74 games during the season.
 - LeBron James and Giannis Antetokounmpo are very similar performing players.
 - The Centers led many teams in 3 point percentages.
+  
+### The Data
+
+For this project, I used the 2022-2023 Player Stats: Totals dataset from [Basketball-Reference](https://www.basketball-reference.com/leagues/NBA_2023_totals.html)
+
+There was a total of 539 players, but with all the trades made this season, there were 680 rows. There were 32 columns which included stats such as shooting percentage for different shots, rebounds, assists, and turnovers and other informatin such as rank, team, and position. I used **Tableau** to create visualizations and a story to share my findings. The color scheme used is to differentiate the positions that the players are on each team. Dark blue = Centers, Orange = Power Forwards, light grey = Point Guards, dark grey = Small Forwards, and light blue = Shooting Guards. 
+
+<img src="images/Legend.png?raw=true"/>
+
 
 ### Dominating Centers
 
-In order to organize data for assists per player per position, I used a Treemap. This allowed me to show hierarchical data as a set of nested rectangles. The largest rectangle represents the point guards, as they typically have the most assists. I also restricted the data to only show players who had at least 200 assists. While the smallest rectangle is composed of the centers, it is important to note that the leading centers, Jokic and Sabonis, have stats as high as some of the leading point guards. As a center, typically you are "fed the ball" to score in the paint. However, in an interview with Jokic, he explains the differences between European and American basketball. The size of the court, the lines, and some rules are different. Having started playing basketball in Europe, Jokic and Sabonis may have a different style of play that allows them to thrive more in the NBA.
+In order to organize the data for assists per player, per position, I used a Treemap. This allowed me to show hierarchical data as a set of nested rectangles. The largest rectangle represents the point guards, as they typically have the most assists. I also restricted the data to only show players who had at least 200 assists. While the smallest rectangle is composed of the centers, it is important to note that the leading centers, Jokic and Sabonis, have stats as high as some of the leading point guards. As a center, typically you are "fed the ball" to score in the paint. However, in an interview with Jokic, he explains the differences between European and American basketball. The size of the court, the lines, and some rules are different. Having started playing basketball in Europe, Jokic and Sabonis may have a different style of play that allows them to thrive more in the NBA.
 
 <img src="images/Assists.png?raw=true"/>
 
