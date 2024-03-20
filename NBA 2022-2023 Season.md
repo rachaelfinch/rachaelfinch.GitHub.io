@@ -1,6 +1,6 @@
 ## NBA 2022-2023 Season Stats
 
-**Project description:** Have you ever had a conversation with someone about basketball who is a devoted fan? I am always surrounded by sports fanatics so I took this opportunity to understand the NBA in more depth. 
+**Project description:** Have you ever had a conversation with someone who is a die hard sports fan? I am talking about that type of person whose seasons revolves around baseball, basketball, football, and hockey not spring, summer, fall, and winter. I am always surrounded by sports fanatics so I took this opportunity to understand the NBA more in depth and provide some data driven insights. 
 
 ### The Data
 
@@ -8,11 +8,10 @@ For this project, I used the 2022-2023 Player Stats: Totals dataset from [Basket
 
 There was a total of 539 players, but with all the trades made this season, there were 680 rows. There were 32 columns which included stats such as shooting percentage for different shots, rebounds, assists, and turnovers and other informatin such as rank, team, and position. I used **Tableau** to create visualizations and a story to share my findings. The color scheme used is to differentiate the positions that the players are on each team. Dark blue = Centers, Orange = Power Forwards, light grey = Point Guards, dark grey = Small Forwards, and light blue = Shooting Guards. 
 
-
 ### Major Findings
 
 - Nikola Jokic and Domantas Sabonis outperformed many point guards regarding their total number of assists.
-- Joel Embiid was the MVP for the season with an average of 33.1 points, 10.2 rebounds, and 4.2 assists per game.
+- Joel Embiid was the MVP for the 2022-2023 season with an average of 33.1 points, 10.2 rebounds, and 4.2 assists per game.
 - Jayson Tatum led the league in total points scored, playing a total of 74 games during the season.
 - LeBron James and Giannis Antetokounmpo are very similar performing players. 
 
