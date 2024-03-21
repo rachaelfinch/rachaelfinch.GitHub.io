@@ -33,7 +33,7 @@ In order to organize the data for assists per player, per position, I used a Tre
 
 Using this bubble scatter plot, the X and Y axes represent average points per game and average assists per games, respectively. The size of the bubble correlates with the average number of rebounds per game. 
 
-Embiid put up on average, 33.1 points per game, 4.2 assists, and 10.2 rebounds. While he doesn't lead the centers with the most assists, he comes in second place for top scorer in the NBA with 2183 points. The only other 3 players to score over 2,0000 points during the season were point guards and small forwards. 
+Embiid put up on average, 33.1 points per game, 4.2 assists, and 10.2 rebounds. While he doesn't lead the centers with the most assists, he comes in second place for top scorer in the NBA with 2183 points. The only other 3 players to score over 2,000 points during the season were point guards and small forwards. 
 
 **Embiid was the MVP**. There is some controversy with Denver fans as to why Jokic didn't receive the MVP. Embiid played 66 games while Jokic played 69. A three game difference likely wouldn't affect the average stats very much. While Embiid led his team to the NBA playoffs, and played fantastic, they lost to the Celtics in the conference semifinals. Jokic led his team all the way to the finals and won. However, Embiid secured the title of MVP with 73 votes. Runners up were Nikola Jokic with 15 votes and Giannis Antetokounmpo with 12.
 
@@ -41,7 +41,7 @@ Embiid put up on average, 33.1 points per game, 4.2 assists, and 10.2 rebounds. 
 
 ### Leading Scorer
 
-Looking at the stacked barchart for leading scorers, we see that Jayson Tatum scored the most for the Celtics. I restricted the data on this chart to only show players who scored at least 500 games during the regular season.
+Looking at the stacked barchart for leading scorers, we see that Jayson Tatum scored the most for the Celtics. I restricted the data on this chart to only show players who scored at least 500 points during the regular season.
 
 <img src="images/Lscorers.png?raw=true"/>
 
