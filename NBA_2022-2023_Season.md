@@ -57,7 +57,7 @@ LeBron James is often referred to as "The Goat", however, I do not agree. Michae
 
 ### Basketball Becoming Less Positional
 
-I recently read an article about the NBA going offically position-less in the 2024-2025 NBA season. This is big news. Over the last decade, the game has changed so much. Portrayed in this 3 point percentage heatmap, **it is evident that centers are dominating and leading the following teams in 3 pointers**: Atlanta Hawks, Boston Celtics, Brooklyn Nets, Houston Rockets, Utah Jazz, Washington Wizards, and Oklahoma City Thunder (centers tied with their shooting guards). Players like Al Horford on the Celtics shooting 44.6% from the 3-point line and Kristaps Porzingis on the Washington Wizards with 38.5%, exemplify how centers are no longer stuck in the paint. Gone is the day where point guards and shooting guards dominate the scoreboard. 
+I recently read an article about the NBA going offically position-less in the 2024-2025 NBA season. This is big news. Over the last decade, the game has changed so much. Portrayed in this 3 point percentage heatmap, it is evident that **centers are dominating and leading the following teams in 3 pointers: Atlanta Hawks, Boston Celtics, Brooklyn Nets, Houston Rockets, Utah Jazz, Washington Wizards, and Oklahoma City Thunder (centers tied with their shooting guards)**. Players like Al Horford on the Celtics shooting 44.6% from the 3-point line and Kristaps Porzingis on the Washington Wizards with 38.5%, exemplify how centers are no longer stuck in the paint. Gone is the day where point guards and shooting guards dominate the scoreboard. 
 
 <img src="images/3pt.png?raw=true"/>
 
