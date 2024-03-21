@@ -45,7 +45,7 @@ Looking at the stacked barchart for leading scorers, we see that Jayson Tatum sc
 
 <img src="images/Lscorers.png?raw=true"/>
 
-Also, seen in the bubble scatter plot for total stats, **Tatum is the leading scorer in the whole league with 2225 points**. I was curious as to why his ranking for leading scorer dropped so much whe the average was taken into consideration. I looked at the raw data and the maximum number of games played was 83 (a traded player as the NBA has 82 regular season games) and the minumum was 1 game. Tatum played 74 games. While this is beneficial to the Celtics, it actually reduced his average points per game compared to other players like Joel Embiid and Luka Doncic who only played 66 games during the season. Reasons such as load management and injuries often reduce player's total games played. 
+Also, seen in the bubble scatter plot for total stats, **Tatum is the leading scorer in the whole league with 2225 points**. I was curious as to why his ranking for leading scorer dropped so much when the average was taken into consideration. I looked at the raw data and the maximum number of games played was 83 (a traded player as the NBA has 82 regular season games) and the minumum was 1 game. Tatum played 74 games. While this is beneficial to the Celtics, it actually reduced his average points per game compared to other players like Joel Embiid and Luka Doncic who only played 66 games during the season. Reasons such as load management and injuries often reduce player's total games played. 
 
 <img src="images/BubbleT.png?raw=true"/>
 
