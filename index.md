@@ -12,7 +12,7 @@ Hi! I am a northerner born and raised, but currently living in the south. I love
 
 #### [Emergency Department Dashboard](https://www.linkedin.com/pulse/emergency-room-visits-dashboard-rachael-finch-v84qe/)
 <img src="images/ERdash.png?raw=true"/>
-A Tableau dashboard created using data from emergency room visits. The visualizations provide valuable insights to healthcare administrators and frontline staff such as average patients requiring care as well as poor patient satisfaction in this hospital.
+A Tableau dashboard created using data from ER admissions. The visualizations provide valuable insights to healthcare administrators and frontline staff as well as patients seeking care.
 
 
 #### [Sports Analysis](/NBA_2022-2023_Season.md)
