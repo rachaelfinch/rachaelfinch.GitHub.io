@@ -14,11 +14,12 @@ Hi! I am a northerner born and raised, currently navigating living in the south.
 <img src="images/heart.png?raw=true"/>
 A Python analysis of the health status of over 400,000 individuals in the U.S. from 2020 and 2022. I utilized various Python libraries to create data vizualizations and correlation matrices related to heart disease. 
 
+---
 #### [Emergency Department Dashboard](https://www.linkedin.com/pulse/emergency-room-visits-dashboard-rachael-finch-v84qe/)
 <img src="images/ERdash.png?raw=true"/>
 A Tableau dashboard created using data from ER admissions. The visualizations provide valuable insights to healthcare administrators and frontline staff as well as patients seeking care.
 
-
+---
 #### [Sports Analysis](/NBA_2022-2023_Season.md)
 <img src="images/NBAI.png?raw=true"/>
 A visual exploration into the 2022-2023 NBA season player stats using Tableau. In this project, I created a story to show how the NBA is transitioning to a position-less game by focusing on key stats such as assits, rebounds, and points. 
