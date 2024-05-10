@@ -12,7 +12,7 @@ Hi! I am a northerner born and raised, currently navigating living in the south.
 
 #### [Heart Disease Analysis](https://www.linkedin.com/pulse/occurrence-heart-disease-us-rachael-finch-8imwe/)
 <img src="images/heart.png?raw=true"/>
-A Python analysis of the health status related to heart disease of over 400,000 individuals in the U.S. from 2020 and 2022. I utilized various Python libraries to create data vizualizations and correlation matrices. 
+A Python analysis of the health status of over 400,000 individuals in the U.S. from 2020 and 2022. I utilized various Python libraries to create data vizualizations and correlation matrices related to heart disease. 
 
 #### [Emergency Department Dashboard](https://www.linkedin.com/pulse/emergency-room-visits-dashboard-rachael-finch-v84qe/)
 <img src="images/ERdash.png?raw=true"/>
