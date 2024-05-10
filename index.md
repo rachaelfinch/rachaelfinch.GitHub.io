@@ -3,7 +3,7 @@
 
 ### About Me
 
-Hi! I am a northerner born and raised, but currently living in the south. I love the outdoors and recently have gotten more into running. I ran my first half-marathon this past January. My fiance and I have two Calico cats named Georgia and Luna, and I love to cook and code! Follow for more of the latter.
+Hi! I am a northerner born and raised, currently navigating living in the south. I love the outdoors and recently have found a passion for running. My fiance and I have two Calico cats named Georgia and Luna, and I love to cook and code! Follow for more of the latter.
 
 <img src="images/P_21.JPG" width="350">
 
@@ -12,6 +12,7 @@ Hi! I am a northerner born and raised, but currently living in the south. I love
 
 #### [Heart Disease Analysis](https://www.linkedin.com/pulse/occurrence-heart-disease-us-rachael-finch-8imwe/)
 <img src="images/heart.png?raw=true"/>
+A Python analysis of the health status related to heart disease of over 400,000 individuals in the U.S. from 2020 and 2022. I utilized various Python libraries to create data vizualizations and correlation matrices. 
 
 #### [Emergency Department Dashboard](https://www.linkedin.com/pulse/emergency-room-visits-dashboard-rachael-finch-v84qe/)
 <img src="images/ERdash.png?raw=true"/>
