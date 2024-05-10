@@ -24,6 +24,8 @@ A Tableau dashboard created using data from ER admissions. The visualizations pr
 <img src="images/NBAI.png?raw=true"/>
 A visual exploration into the 2022-2023 NBA season player stats using Tableau. In this project, I created a story to show how the NBA is transitioning to a position-less game by focusing on key stats such as assits, rebounds, and points. 
 
+---
+
 #### [Healthcare Analysis](https://www.linkedin.com/pulse/increasing-patient-outcomes-using-sql-rachael-finch-velvc/?trackingId=jXem1tIxTPOApUjIvuuKJw%3D%3D)
 <img src="images/HealthcareSQL.png?raw=true"/>
 An in-depth exploration of an extensive dataset comprising more than 70,000 individuals admitted to hospitals across the United States. My primary focus centered on analyzing the length of stay (KPI) and the utilization of lab procedures and medications among these patients. By leveraging SQL, I unearthed valuable insights crucial for stakeholders and offered strategic directions for the future based on the analysis.
