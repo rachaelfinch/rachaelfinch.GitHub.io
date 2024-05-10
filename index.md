@@ -11,7 +11,7 @@ Hi! I am a northerner born and raised, but currently living in the south. I love
 ---
 
 #### [Heart Disease Analysis](https://www.linkedin.com/pulse/occurrence-heart-disease-us-rachael-finch-8imwe/)
-
+<img src="images/heart.png?raw=true"/>
 
 #### [Emergency Department Dashboard](https://www.linkedin.com/pulse/emergency-room-visits-dashboard-rachael-finch-v84qe/)
 <img src="images/ERdash.png?raw=true"/>
